@@ -1,0 +1,105 @@
+body{
+    display: grid;
+    place-items: center;
+    background-image: url("https://img.freepik.com/free-photo/workplace-with-blue-office-supplies_23-2147843328.jpg?w=1060&t=st=1715895694~exp=1715896294~hmac=3b5f6b004873618e629b3907aef343087db442de23eed5a3c1b5a7219d071ed4");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  #title{
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 0px;
+  }
+  #description{
+    color:black;
+    text-align: center;
+    font-weight: 400;
+    font-size: large;
+    font-style: italic;
+    font-size: 22px;
+    margin-bottom: 30px;
+  }
+  #survey-form{
+    background-color:purple;
+    opacity: 0.6;
+    color:white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: grid;
+    width: 50vw;
+    border-radius: 10px;
+  }
+  #name{
+    height: 30px;
+    border-radius: 5px;
+    border-style: none;
+    display: block;
+    width: 99%;
+  }
+  #email{
+    height: 30px;
+    border-radius: 5px;
+    border-style: none;
+    display: block;
+    width: 99%;
+  }
+  #number{
+    height: 30px;
+    border-radius: 5px;
+    border-style: none;
+    display: block;
+    width: 99%;
+  }
+  #radio{
+    font-size: small;
+    height: 15px;
+    width: 15px;
+  }
+  textarea{
+    height: 90px;
+    padding-top: 10px;
+    border-radius: 5px;
+    border-style: none;
+    display: block;
+    width: 100%;
+  }
+  input{
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  select{
+    font-size: 16px;
+    height: 30px;
+    border-radius: 5px;
+    border-style: none;
+    padding-left: 10px;
+    width: 100%;
+    color: grey;
+    margin-top: 10px;
+  }
+  ::placeholder{
+    padding-left: 10px;
+  }
+  label{
+    font-size: 18px;
+    font-weight: 400;
+  }
+  button{
+    border-style: none;
+    width: 100%;
+    margin-top: 30px;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    background-color: green;
+    font-size: 16px;
+  }
+  textarea{
+    margin-top: 10px;
+    font-size: 16px;
+    width: 99%;
+  }

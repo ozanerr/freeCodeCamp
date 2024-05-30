@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    margin: 0;
+}
+p {
+    font-size: 16px;
+}
+
+/* Media query for screens with a maximum width of 768px */
+@media (max-width: 768px) {
+    p {
+        font-size: 14px;
+    }
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 20px;
+    color: white;
+}
+#main-doc{
+    padding-left: 50px;
+}
+#navbar{
+    padding: 20px;
+    display: flexbox;
+    background-color: green;
+    gap: 20px;
+}
+.nav-div{
+    margin-bottom: 20px;
+}

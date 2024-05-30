@@ -1,0 +1,31 @@
+body{
+    display: grid;
+    place-items: center;
+    place-content: center;
+  }
+  h1{
+    color: black;
+  }
+  #image{
+    max-width: 100%;
+    height: auto;
+  }
+  #main{
+    max-width: 1000px;
+    width: auto;
+    display: grid;
+    place-items: center;
+  }
+  
+  #img-div{
+    display: grid;
+    place-items: center;
+  }
+  h3{
+    display: grid;
+    place-items: center;
+  }
+  a{
+    display: grid;
+    place-items: center;
+  }

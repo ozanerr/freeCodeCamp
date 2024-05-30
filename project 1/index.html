@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div>
+        <h1 id="title">Login Form</h1>
+        <p id="description">Ozaner's Login form</p>
+    </div>
+    <div class="wrap">
+        <form id="survey-form">
+        <div>
+            <label id="name-label">Name
+            <div>
+                <input id="name" type="text" placeholder="Enter Your Name" required></input>
+            </div>
+            </label>
+        </div>
+        <br>
+        <div>
+            <label id="email-label">Email
+                <div>
+                    <input id="email" type="email" placeholder="Enter Your Email" required></input>
+                </div>
+            </label>
+        </div>
+        <br>
+        <div>
+            <label id="number-label">Number
+            <div>
+                <input id="number" type="number" min="1" max="100" placeholder="Enter Your Number"></input>
+            </div>
+        </div>
+        <br>
+        <div>
+            <label id="select-label">What Is Your Job?
+                <div>
+                    <select id="dropdown">
+                    <option value="student">Student</option>
+                    <option value="teacher">Teacher</option>
+                    <option value="policeman">Policeman</option>
+                    </select>
+                </div>
+            </label>
+        </div>
+        <br>
+        <div>
+            <label id="work-label">Working Hours?
+                <div>
+                    <div><input value="<8hours" id="radio" name="hrs" type="radio">< 8 hours</input></div>
+                    <div><input value=">8hours" id="radio" name="hrs" type="radio">> 8 hours</input></div>
+                </div>
+            </label>
+        </div>
+        <br>
+        <div>
+            <label>What pets do you have?
+                <div><input value="cat" type="checkbox"> Cat </input></div>
+                <div><input value="dog" type="checkbox"> Dog </input></div>
+                <div><input value="all" type="checkbox"> All Above </input></div>
+                <div><input value="none" type="checkbox"> None Above </input></div>
+            </label>
+        </div>
+        <br>
+        <div>
+            <label>Describe Your Job
+                <div><textarea placeholder="Enter Your Answer here"></textarea></div>
+            </label>
+        </div>
+        <button type="submit" id="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
